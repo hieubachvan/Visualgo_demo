@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+.sortStartHide {
+  min-width: 42px;
+  height: 70px;
+  background: #2f4f4f;
+  position: fixed;
+  left: 0px;
+  top: 530px;
+  cursor: pointer;
+}
+.sortStartHide img {
+  position: relative;
+  top: 27px;
+}
+.insertsort {
+  display: none;
+}
+.selectSort_ {
+  display: none;
+}
+.quickSort_ {
+  display: none;
+}
+.insertsort.active,
+.selectSort_.active,
+.quickSort_.active {
+  display: block;
+  position: absolute;
+  left: 75%;
+  top: 22%;
+  text-align: left;
+  background-color: #8fbc8f;
+  padding: 10px;
+}
+.insertsort.active .active,
+.selectSort_.active .active,
+.quickSort_.active .active {
+  background: #2f4f4f;
+  color: white;
+  padding: 5px;
+}
+.compareSortStarts,
+.radixSortStarts,
+.heapSortStarts {
+  position: fixed;
+  top: 530px;
+  left: 46px;
+  width: 0px;
+  height: 70px;
+  background: #2f4f4f;
+  cursor: pointer;
+  display: none;
+}
+.compareSortStarts p,
+.radixSortStarts p,
+.heapSortStarts p {
+  text-align: left;
+  color: white;
+  font-size: 0.9em;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  margin: 0px;
+  text-indent: 1.5em;
+  font-weight: bold;
+}
+.arrayLength {
+  position: fixed;
+  left: 190px;
+  top: 530px;
+  width: 200px;
+  height: 35px;
+  background: #2f4f4f;
+  display: none;
+  cursor: pointer;
+}
+.arrayLength span {
+  font-size: 1em;
+  color: white;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: -8px;
+}
+.arrayLength input {
+  width: 72%;
+  margin-left: 6px;
+}
+.createArray,
+.createRadixArray,
+.createHeapArray {
+  position: fixed;
+  left: 394px;
+  top: 530px;
+  width: 80px;
+  height: 35px;
+  background: #2f4f4f;
+  display: none;
+  cursor: pointer;
+}
+.createArray p,
+.createRadixArray p,
+.createHeapArray p {
+  width: 100%;
+  margin-top: 8px;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+.subC2,
+.subV2,
+.subHS2 {
+  position: fixed;
+  top: 565px;
+  width: 80px;
+  /* height: 35px; */
+  background: #2f4f4f;
+  display: none;
+  cursor: pointer;
+  left: 190px;
+  border-radius: 12px;
+}
+.subC2 p,
+.subV2 p,
+.subHS2 p {
+  width: 100%;
+  margin-top: 8px;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+.insertSort,
+.radixSort {
+  left: 190px;
+}
+.selectSort {
+  left: 274px;
+}
+.bubbleSort {
+  left: 359px;
+}
+.shellSort {
+  left: 443px;
+}
+.quickSort {
+  left: 527px;
+}
+.mergeSort {
+  left: 611px;
+}
